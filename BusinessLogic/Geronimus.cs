@@ -261,11 +261,6 @@
                                 remainingList[node] = path;
                                 calculatedValues[node] = actualTime;
                             }
-                            /*else if(!calculatedValues.ContainsKey(path[1]))
-                            {
-                                remainingList[node] = path;
-                                calculatedValues[node] = actualTime;
-                            }*/
                         }
                         else
                         {
