@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Geronimus.UI" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="InitialMatrixPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resources\InitialMatrix.txt</Value>
+    </Setting>
+    <Setting Name="WaitingTimeMatrix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resources\WaitingTimeMatrix.txt</Value>
+    </Setting>
+    <Setting Name="PassengerFlow" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resources\PassengerFlow.txt</Value>
+    </Setting>
+    <Setting Name="UnuniformityCoeficient" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.5</Value>
+    </Setting>
+    <Setting Name="Capacity" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="TransferTime" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">2.5</Value>
+    </Setting>
+    <Setting Name="MaxInterval" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">12.5</Value>
+    </Setting>
+    <Setting Name="TimeInterval" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="PassengerArrivalCoeficient" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1.1</Value>
+    </Setting>
+    <Setting Name="LogFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resources\Log.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

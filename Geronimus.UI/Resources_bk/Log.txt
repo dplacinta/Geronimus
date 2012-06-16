@@ -1,0 +1,118 @@
+Pasul 3: stabilirea retelei initiale:
+Ruta 1, 7, 3 se exclude, timpul necesar (18.1818181818182) > timpul admisibil (5)
+Ruta 1, 7, 3, 4 se exclude, timpul necesar (15.5844155844156) > timpul admisibil (3)
+Ruta 1, 7, 6, 5 se exclude, timpul necesar (15.5844155844156) > timpul admisibil (4)
+Ruta 1, 7, 6 se exclude, timpul necesar (9.09090909090909) > timpul admisibil (5)
+Ruta 1, 7, 8 se include, timpul necesar (3.25644504748982) < timpul admisibil (5)
+Ruta 2, 3, 4 se exclude, timpul necesar (3.11688311688312) > timpul admisibil (3)
+Ruta 2, 3, 7, 6, 5 se exclude, timpul necesar (27.2727272727273) > timpul admisibil (3)
+Ruta 2, 3, 7, 6 se exclude, timpul necesar (8.39160839160839) > timpul admisibil (3)
+Ruta 2, 3, 7 se exclude, timpul necesar (4.36363636363636) > timpul admisibil (3)
+Ruta 2, 3, 7, 8 se exclude, timpul necesar (5.74162679425837) > timpul admisibil (3)
+Ruta 3, 7, 1 se exclude, timpul necesar (18.1818181818182) > timpul admisibil (5)
+Ruta 3, 7, 6, 5 se include, timpul necesar (1.81818181818182) < timpul admisibil (4)
+Ruta 3, 7, 6 se exclude, timpul necesar (10.3896103896104) > timpul admisibil (5)
+Ruta 3, 7, 8 se exclude, timpul necesar (9.91735537190083) > timpul admisibil (5)
+Ruta 4, 3, 7, 1 se exclude, timpul necesar (15.5844155844156) > timpul admisibil (3)
+Ruta 4, 3, 2 se exclude, timpul necesar (3.11688311688312) > timpul admisibil (3)
+Ruta 4, 3, 7, 6 se exclude, timpul necesar (21.8181818181818) > timpul admisibil (3)
+Ruta 4, 3, 7 se include, timpul necesar (2.0979020979021) < timpul admisibil (3)
+Ruta 4, 3, 7, 8 se exclude, timpul necesar (17.0454545454545) > timpul admisibil (3)
+Ruta 5, 6, 7, 1 se exclude, timpul necesar (15.5844155844156) > timpul admisibil (4)
+Ruta 5, 6, 7, 3, 2 se exclude, timpul necesar (27.2727272727273) > timpul admisibil (3)
+Ruta 5, 6, 7, 3 se include, timpul necesar (1.81818181818182) < timpul admisibil (4)
+Ruta 5, 6, 7 se exclude, timpul necesar (12.1212121212121) > timpul admisibil (4)
+Ruta 5, 6, 7, 8 se exclude, timpul necesar (27.2727272727273) > timpul admisibil (4)
+Ruta 6, 7, 1 se exclude, timpul necesar (9.09090909090909) > timpul admisibil (5)
+Ruta 6, 7, 3, 2 se exclude, timpul necesar (8.39160839160839) > timpul admisibil (3)
+Ruta 6, 7, 3 se exclude, timpul necesar (10.3896103896104) > timpul admisibil (5)
+Ruta 6, 7, 3, 4 se exclude, timpul necesar (21.8181818181818) > timpul admisibil (3)
+Ruta 6, 7, 8 se exclude, timpul necesar (10.9090909090909) > timpul admisibil (5)
+Ruta 7, 3, 2 se exclude, timpul necesar (4.36363636363636) > timpul admisibil (3)
+Ruta 7, 3, 4 se include, timpul necesar (2.0979020979021) < timpul admisibil (3)
+Ruta 7, 6, 5 se exclude, timpul necesar (12.1212121212121) > timpul admisibil (4)
+Ruta 8, 7, 1 se include, timpul necesar (3.25644504748982) < timpul admisibil (5)
+Ruta 8, 7, 3, 2 se exclude, timpul necesar (5.74162679425837) > timpul admisibil (3)
+Ruta 8, 7, 3 se exclude, timpul necesar (9.91735537190083) > timpul admisibil (5)
+Ruta 8, 7, 3, 4 se exclude, timpul necesar (17.0454545454545) > timpul admisibil (3)
+Ruta 8, 7, 6, 5 se exclude, timpul necesar (27.2727272727273) > timpul admisibil (4)
+Ruta 8, 7, 6 se exclude, timpul necesar (10.9090909090909) > timpul admisibil (5)
+Pasul 3: rutele scurte
+Ruta 1, 2 se include, timpul necesar (10.9090909090909) < timpul admisibil (12.5)
+Ruta 2, 3 se include, timpul necesar (8) < timpul admisibil (12.5)
+Ruta 4, 5 se exclude, timpul necesar (40) > timpul admisibil (12.5)
+Pasul 4: stabilirea eficientei adaugarii de rute aditionale:
+Ruta 1, 7, 3 se include, timpul necesar (11.4285714285714) < timpul admisibil (12.5)
+Ruta 1, 7, 3, 4 se include, timpul necesar (5.85365853658537) < timpul admisibil (12.5)
+Ruta 1, 7, 6, 5 se include, timpul necesar (5.58139534883721) < timpul admisibil (12.5)
+Ruta 2, 3, 4 se include, timpul necesar (4.44444444444444) < timpul admisibil (12.5)
+Ruta 2, 3, 7, 6, 5 se include, timpul necesar (3.75) < timpul admisibil (12.5)
+Ruta 2, 3, 7 se include, timpul necesar (7.27272727272727) < timpul admisibil (12.5)
+Ruta 2, 3, 7, 8 se include, timpul necesar (5.78313253012048) < timpul admisibil (12.5)
+Ruta 3, 7, 6 se include, timpul necesar (8.57142857142857) < timpul admisibil (12.5)
+Ruta 4, 3, 7, 6 se include, timpul necesar (5.45454545454545) < timpul admisibil (12.5)
+Ruta 4, 3, 7, 8 se include, timpul necesar (5.85365853658537) < timpul admisibil (12.5)
+Ruta 5, 6, 7, 1 se include, timpul necesar (5.58139534883721) < timpul admisibil (12.5)
+Ruta 5, 6, 7, 3, 2 se include, timpul necesar (3.75) < timpul admisibil (12.5)
+Ruta 5, 6, 7, 8 se include, timpul necesar (6.31578947368421) < timpul admisibil (12.5)
+Ruta 6, 7, 1 se include, timpul necesar (7.5) < timpul admisibil (12.5)
+Ruta 7, 6, 5 se include, timpul necesar (7.74193548387097) < timpul admisibil (12.5)
+Ruta 8, 7, 3, 2 se include, timpul necesar (5.78313253012048) < timpul admisibil (12.5)
+Ruta 8, 7, 3, 4 se include, timpul necesar (5.85365853658537) < timpul admisibil (12.5)
+Ruta 8, 7, 6, 5 se include, timpul necesar (6.31578947368421) < timpul admisibil (12.5)
+Pasul 5:
+Tipul retelei initiale: 435118.029104325
+Calculam timpul total pentru ruta aditionala: 1, 7, 3
+Timpul total = 437098.43492519
+Excludem ruta (1, 7, 3) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 1, 7, 3, 4
+Timpul total = 437098.43492519
+Excludem ruta (1, 7, 3, 4) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 1, 7, 6, 5
+Timpul total = 437098.43492519
+Excludem ruta (1, 7, 6, 5) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 2, 3, 4
+Timpul total = 437098.43492519
+Excludem ruta (2, 3, 4) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 2, 3, 7, 6, 5
+Timpul total = 437098.43492519
+Excludem ruta (2, 3, 7, 6, 5) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 2, 3, 7
+Timpul total = 437098.43492519
+Excludem ruta (2, 3, 7) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 2, 3, 7, 8
+Timpul total = 437098.43492519
+Excludem ruta (2, 3, 7, 8) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 3, 7, 6
+Timpul total = 437098.43492519
+Excludem ruta (3, 7, 6) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 4, 3, 7, 6
+Timpul total = 437098.43492519
+Excludem ruta (4, 3, 7, 6) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 4, 3, 7, 8
+Timpul total = 437098.43492519
+Excludem ruta (4, 3, 7, 8) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 5, 6, 7, 1
+Timpul total = 437098.43492519
+Excludem ruta (5, 6, 7, 1) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 5, 6, 7, 3, 2
+Timpul total = 437098.43492519
+Excludem ruta (5, 6, 7, 3, 2) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 5, 6, 7, 8
+Timpul total = 437098.43492519
+Excludem ruta (5, 6, 7, 8) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 6, 7, 1
+Timpul total = 437098.43492519
+Excludem ruta (6, 7, 1) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 7, 6, 5
+Timpul total = 437098.43492519
+Excludem ruta (7, 6, 5) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 8, 7, 3, 2
+Timpul total = 437098.43492519
+Excludem ruta (8, 7, 3, 2) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 8, 7, 3, 4
+Timpul total = 437098.43492519
+Excludem ruta (8, 7, 3, 4) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)
+Calculam timpul total pentru ruta aditionala: 8, 7, 6, 5
+Timpul total = 437098.43492519
+Excludem ruta (8, 7, 6, 5) din lista rutelor aditionale, deoarece timpul schemei precedente (435118.029104325) e mai mic decit timpul schemei curente (437098.43492519)

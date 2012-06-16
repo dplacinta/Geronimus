@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\BusinessLogic\bin\Debug\Geronimus.BusinessLogic.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\BusinessLogic\bin\Debug\Geronimus.BusinessLogic.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\BusinessLogic\obj\Debug\Geronimus.BusinessLogic.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\BusinessLogic\obj\Debug\Geronimus.BusinessLogic.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\BusinessLogic\bin\Debug\Geronimus.DataObjects.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\BusinessLogic\bin\Debug\Geronimus.DataObjects.pdb

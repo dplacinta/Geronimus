@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\BusinessLogic\bin\Debug\BusinessLogic.dll
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\BusinessLogic\bin\Debug\BusinessLogic.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\BusinessLogic\obj\Debug\BusinessLogic.dll
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\BusinessLogic\obj\Debug\BusinessLogic.pdb

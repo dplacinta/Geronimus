@@ -1,0 +1,619 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/d:Properties/f:Resources.resx" caret="0" fromTop="0" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/f:GeronimousMain.Designer.cs" caret="0" fromTop="0" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/d:Properties/f:AssemblyInfo.cs" caret="1418" fromTop="1" />
+      <File id="3CA5DB27-B528-45DF-9562-B7873100DC01/d:Properties/f:AssemblyInfo.cs" caret="1434" fromTop="1" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/d:Properties/f:AssemblyInfo.cs" caret="1071" fromTop="26" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/d:Properties/f:Resources.Designer.cs" caret="0" fromTop="0" />
+      <File id="3CA5DB27-B528-45DF-9562-B7873100DC01/f:Node.cs" caret="614" fromTop="18" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/f:Settings.Designer.cs" caret="0" fromTop="0" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/f:FloydTest.cs" caret="162" fromTop="0" />
+      <File id="3CA5DB27-B528-45DF-9562-B7873100DC01/f:GeronimusParameter.cs" caret="0" fromTop="0" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/f:app.config" caret="1707" fromTop="29" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/d:Properties/f:Settings.Designer.cs" caret="0" fromTop="0" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/f:TestSettings.cs" caret="491" fromTop="8" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/d:Resources/f:PassengerFlow.txt" caret="0" fromTop="0" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/f:app.config" caret="0" fromTop="0" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/d:Resources/f:WaitingTimeMatrix.txt" caret="0" fromTop="0" />
+      <File id="3CA5DB27-B528-45DF-9562-B7873100DC01/f:ShortestPathsResult.cs" caret="776" fromTop="21" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/d:Resources/f:InitialMatrix.txt" caret="0" fromTop="0" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/d:Resources/f:ExpectedShortestPaths.txt" caret="0" fromTop="0" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/d:Resources/f:InitialMatrix.txt" caret="154" fromTop="7" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/f:TestSettings.Designer.cs" caret="3323" fromTop="27" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/d:Resources/f:PassengerFlow.txt" caret="125" fromTop="4" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/f:MatrixLoaderTest.cs" caret="4777" fromTop="27" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/d:Resources/f:ExpectedInitialMatrix.txt" caret="69" fromTop="3" />
+      <File id="2DA2F6ED-0A54-4917-9734-1BC6FC947A07/f:GeronimusTest.cs" caret="8032" fromTop="27" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/f:Program.cs" caret="290" fromTop="12" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:FloydAlgorithm.cs" caret="3583" fromTop="18" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:MatrixLoader.cs" caret="3723" fromTop="24" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/f:GeronimousMain.cs" caret="2590" fromTop="46" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="11659" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="12474" fromTop="38" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="11637" fromTop="20" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="11255" fromTop="15" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="9233" fromTop="18" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="1307" fromTop="10" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="14988" fromTop="35" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="15422" fromTop="44" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="14988" fromTop="22" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:MatrixLoader.cs" caret="3543" fromTop="22" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:MatrixLoader.cs" caret="3848" fromTop="17" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="9751" fromTop="22" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="10021" fromTop="26" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="28258" fromTop="33" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="1839" fromTop="23" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="15403" fromTop="23" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="14305" fromTop="4" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="16268" fromTop="52" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="15604" fromTop="18" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="16216" fromTop="28" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="16229" fromTop="29" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="16091" fromTop="26" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="1839" fromTop="30" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="1839" fromTop="42" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="1839" fromTop="27" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="3375" fromTop="44" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="2752" fromTop="30" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/f:GeronimousMain.cs" caret="8103" fromTop="45" />
+      <File id="D9C6A07C-CACD-49BA-B41A-E2B2D1CE89BC/f:GeronimousMain.cs" caret="2590" fromTop="46" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="12978" fromTop="34" />
+      <File id="30DFAD28-0077-48D6-A573-FD21D98365E7/f:Geronimus.cs" caret="13220" fromTop="38" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="TestCase" priority="1" />
+      <Item value="ExpectedExceptionAttribute`0" priority="0" />
+      <Item value="expected" priority="4" />
+      <Item value="new" priority="67" />
+      <Item value="double" priority="69" />
+      <Item value="Assert`0" priority="11" />
+      <Item value="CollectionAssert`0" priority="3" />
+      <Item value="result" priority="13" />
+      <Item value="return" priority="48" />
+      <Item value="inputMatrix" priority="1" />
+      <Item value="for" priority="44" />
+      <Item value="Length" priority="18" />
+      <Item value="if" priority="48" />
+      <Item value="else" priority="12" />
+      <Item value="continue" priority="5" />
+      <Item value="private" priority="6" />
+      <Item value="var" priority="34" />
+      <Item value="floyd" priority="5" />
+      <Item value="next" priority="1" />
+      <Item value="int" priority="28" />
+      <Item value="public" priority="18" />
+      <Item value="void" priority="12" />
+      <Item value="Node`0" priority="6" />
+      <Item value="Select`2" priority="3" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="expectedNextMatrix" priority="2" />
+      <Item value="Is`0" priority="8" />
+      <Item value="string" priority="31" />
+      <Item value="i" priority="26" />
+      <Item value="j" priority="0" />
+      <Item value="Node" priority="0" />
+      <Item value="short" priority="0" />
+      <Item value="shortestPath" priority="1" />
+      <Item value="ShortestPath" priority="0" />
+      <Item value="Next" priority="2" />
+      <Item value="nextNode" priority="0" />
+      <Item value="override" priority="1" />
+      <Item value="obj" priority="3" />
+      <Item value="false" priority="13" />
+      <Item value="is" priority="4" />
+      <Item value="as" priority="2" />
+      <Item value="objectToCompare" priority="1" />
+      <Item value="this" priority="15" />
+      <Item value="IgnoreAttribute`0" priority="0" />
+      <Item value="IList" priority="23" />
+      <Item value="nodes" priority="10" />
+      <Item value="startPoint" priority="9" />
+      <Item value="endPoint" priority="9" />
+      <Item value="paths" priority="13" />
+      <Item value="List&lt;int&gt;" priority="5" />
+      <Item value="expectedPath" priority="0" />
+      <Item value="path" priority="57" />
+      <Item value="GetPath`0" priority="2" />
+      <Item value="intermediate" priority="5" />
+      <Item value="expectedNodesMatrix" priority="3" />
+      <Item value="List&lt;IList&lt;int&gt;&gt;" priority="4" />
+      <Item value="pathsList" priority="61" />
+      <Item value="using" priority="1" />
+      <Item value="System" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="break" priority="2" />
+      <Item value="static" priority="2" />
+      <Item value="bool" priority="5" />
+      <Item value="List" priority="9" />
+      <Item value="source" priority="1" />
+      <Item value="destination" priority="1" />
+      <Item value="true" priority="11" />
+      <Item value="ExtensionMethodsHelper`0" priority="0" />
+      <Item value="Geronimus`0" priority="9" />
+      <Item value="FloydAlgorithm`0" priority="3" />
+      <Item value="foreach" priority="22" />
+      <Item value="MatrixLoaderTest`0" priority="1" />
+      <Item value="matrixLoader" priority="17" />
+      <Item value="MatrixLoaderTest" priority="0" />
+      <Item value="TestSettings`0" priority="3" />
+      <Item value="TestSettings" priority="0" />
+      <Item value="settings" priority="27" />
+      <Item value="null" priority="2" />
+      <Item value="T`0" priority="4" />
+      <Item value="Type`0" priority="0" />
+      <Item value="filePath" priority="0" />
+      <Item value="lines" priority="2" />
+      <Item value="matrix" priority="7" />
+      <Item value="line" priority="2" />
+      <Item value="StringSplitOptions`0" priority="0" />
+      <Item value="lineData" priority="1" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="value" priority="2" />
+      <Item value="Environment`0" priority="4" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="expectedNodesMatrix2" priority="1" />
+      <Item value="geronimus" priority="0" />
+      <Item value="GeronimusParameter" priority="1" />
+      <Item value="parameter" priority="36" />
+      <Item value="Geronimus" priority="1" />
+      <Item value="BusinessLogic" priority="0" />
+      <Item value="GlobalSettings`0" priority="0" />
+      <Item value="Test`0" priority="0" />
+      <Item value="SplitLine`0" priority="0" />
+      <Item value="inputMatrix2" priority="0" />
+      <Item value="GeronimusParameter`0" priority="1" />
+      <Item value="Math`0" priority="1" />
+      <Item value="from" priority="5" />
+      <Item value="nguid" priority="0" />
+      <Item value="where" priority="1" />
+      <Item value="intermediatPassengerFlow" priority="0" />
+      <Item value="passengerFlow" priority="5" />
+      <Item value="in" priority="2" />
+      <Item value="node" priority="4" />
+      <Item value="expectedPaths" priority="1" />
+      <Item value="IFormatProvider`0" priority="0" />
+      <Item value="smallRoutes" priority="4" />
+      <Item value="ShortestPathsResult" priority="3" />
+      <Item value="expectedSmallPaths" priority="1" />
+      <Item value="shortestPaths" priority="20" />
+      <Item value="neighbouringPaths" priority="0" />
+      <Item value="ShortestPathsResult`0" priority="4" />
+      <Item value="smallPaths" priority="3" />
+      <Item value="shortestPathsResult" priority="29" />
+      <Item value="RemoveContainingPaths`0" priority="0" />
+      <Item value="destinationList" priority="0" />
+      <Item value="RemoveDuplicatedPaths`0" priority="0" />
+      <Item value="WriteToFile`0" priority="2" />
+      <Item value="ProcessRemainingPaths`0" priority="0" />
+      <Item value="UriHostNameType`0" priority="0" />
+      <Item value="shortPaths" priority="6" />
+      <Item value="remainingList" priority="5" />
+      <Item value="calculatedValues" priority="6" />
+      <Item value="actualTime" priority="7" />
+      <Item value="List&lt;double&gt;" priority="0" />
+      <Item value="smallPath" priority="1" />
+      <Item value="allNodes" priority="2" />
+      <Item value="shortestPathsUnion" priority="1" />
+      <Item value="IDictionary" priority="2" />
+      <Item value="Dictionary" priority="1" />
+      <Item value="MatrixLoader" priority="1" />
+      <Item value="geronimousParameter" priority="7" />
+      <Item value="Settings`0" priority="1" />
+      <Item value="Settings" priority="0" />
+      <Item value="MatrixLoader`0" priority="5" />
+      <Item value="InitialMatrix" priority="0" />
+      <Item value="PassengerFlow" priority="0" />
+      <Item value="WaitingTime" priority="0" />
+      <Item value="Capacity" priority="0" />
+      <Item value="MaxInterval" priority="0" />
+      <Item value="PassangerArrivalCoeficient" priority="0" />
+      <Item value="TimeInterval" priority="0" />
+      <Item value="TransferTime" priority="0" />
+      <Item value="UnuniformityCoeficient" priority="0" />
+      <Item value="txtInitialMatrix" priority="3" />
+      <Item value="lblCapacityValue" priority="0" />
+      <Item value="lblMaxIntervalValue" priority="0" />
+      <Item value="lblUniformityValue" priority="0" />
+      <Item value="lblIntervalValue" priority="0" />
+      <Item value="lblTransferTime" priority="0" />
+      <Item value="lblUniformityCoeficientValue" priority="0" />
+      <Item value="AssertionException`0" priority="0" />
+      <Item value="fileContent" priority="0" />
+      <Item value="expectedText" priority="0" />
+      <Item value="Path`0" priority="0" />
+      <Item value="File`0" priority="2" />
+      <Item value="fullPath" priority="0" />
+      <Item value="txtPassengerFlow" priority="4" />
+      <Item value="txtTransferTime" priority="0" />
+      <Item value="geronimousAlgorithm" priority="1" />
+      <Item value="FloydAlgorithm" priority="0" />
+      <Item value="txtShortestPaths" priority="2" />
+      <Item value="readonly" priority="3" />
+      <Item value="floydResult" priority="0" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="LongLength" priority="1" />
+      <Item value="sb" priority="14" />
+      <Item value="txtWaitingTime" priority="3" />
+      <Item value="vector" priority="0" />
+      <Item value="txtShortestPathsList" priority="8" />
+      <Item value="ExcludedPaths" priority="0" />
+      <Item value="excludedPaths" priority="0" />
+      <Item value="max" priority="4" />
+      <Item value="grbInitialData" priority="2" />
+      <Item value="Point`0" priority="1" />
+      <Item value="lblPassengerFlowText" priority="0" />
+      <Item value="txtNewPaths" priority="4" />
+      <Item value="Point" priority="1" />
+      <Item value="Width" priority="0" />
+      <Item value="lblInitialNetwork" priority="1" />
+      <Item value="lblNewPaths" priority="1" />
+      <Item value="btnLoadInitialData_Click`0" priority="0" />
+      <Item value="sender" priority="1" />
+      <Item value="txtCapacity" priority="1" />
+      <Item value="btnSaveSettings" priority="2" />
+      <Item value="txtMaxInterval" priority="0" />
+      <Item value="txtPassengerArrivalCoeficient" priority="0" />
+      <Item value="txtInterval" priority="0" />
+      <Item value="txtUniformityCoeficient" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="catch" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="OK" priority="0" />
+      <Item value="Error" priority="0" />
+      <Item value="MessageBoxDefaultButton`0" priority="0" />
+      <Item value="matrixData" priority="0" />
+      <Item value="matrixToWrite" priority="0" />
+      <Item value="String`0" priority="1" />
+      <Item value="logFile" priority="0" />
+      <Item value="logFilePath" priority="2" />
+      <Item value="isLoggingEnabled" priority="3" />
+      <Item value="AppendTextToFile`0" priority="0" />
+      <Item value="minimumTime" priority="0" />
+      <Item value="ICollection" priority="0" />
+      <Item value="EntryPointNotFoundException`0" priority="0" />
+      <Item value="select" priority="2" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="pathToString" priority="0" />
+      <Item value="BuildPathString`0" priority="3" />
+      <Item value="initialPAthsList" priority="0" />
+      <Item value="initialPathsList" priority="0" />
+      <Item value="initialMatrix" priority="7" />
+      <Item value="actualInitialMatrix" priority="2" />
+      <Item value="expectedInitialMatrix" priority="0" />
+      <Item value="PathsList" priority="0" />
+      <Item value="size" priority="4" />
+      <Item value="newInitialMatrix" priority="2" />
+      <Item value="forwardSum" priority="5" />
+      <Item value="backwardSum" priority="3" />
+      <Item value="waitingTime" priority="5" />
+      <Item value="sum" priority="5" />
+      <Item value="nodesMatrix" priority="4" />
+      <Item value="out" priority="1" />
+      <Item value="min" priority="1" />
+      <Item value="proportion" priority="0" />
+      <Item value="passwengerFlow" priority="6" />
+      <Item value="AppDomainManagerInitializationOptions`0" priority="1" />
+      <Item value="minSum" priority="0" />
+      <Item value="maxSum" priority="1" />
+      <Item value="tmpSum" priority="0" />
+      <Item value="expectedTime" priority="0" />
+      <Item value="const" priority="1" />
+      <Item value="unitCapacity" priority="0" />
+      <Item value="routesNumber" priority="0" />
+      <Item value="coeficient" priority="0" />
+      <Item value="totalTime" priority="8" />
+      <Item value="resultedInitialMatrix" priority="1" />
+      <Item value="w" priority="0" />
+      <Item value="time" priority="0" />
+      <Item value="LogText`0" priority="9" />
+      <Item value="allShortestPaths" priority="1" />
+      <Item value="tabControl" priority="1" />
+      <Item value="AppendShortestPaths`0" priority="0" />
+      <Item value="txtInitialRoutesMatrix" priority="1" />
+      <Item value="resultedNodesMatrix" priority="7" />
+      <Item value="textBox" priority="0" />
+      <Item value="txtTotalTime" priority="1" />
+      <Item value="tabPage2" priority="2" />
+      <Item value="count" priority="0" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="totalWaitingTime" priority="1" />
+      <Item value="Queue" priority="1" />
+      <Item value="while" priority="0" />
+      <Item value="additionalPath" priority="6" />
+      <Item value="Step5FirstTime`0" priority="0" />
+      <Item value="Dictionary&lt;List&lt;int&gt;,double&gt;" priority="0" />
+      <Item value="totalTimeMap" priority="2" />
+      <Item value="currentTotalTime" priority="2" />
+      <Item value="minTime" priority="2" />
+      <Item value="d" priority="1" />
+      <Item value="pathToInclude" priority="3" />
+      <Item value="Step5Cycle`0" priority="0" />
+      <Item value="txtConfirmedAdditionalPaths" priority="0" />
+      <Item value="SetUpFixtureAttribute`0" priority="0" />
+      <Item value="firstTerm" priority="1" />
+      <Item value="secondTerm" priority="1" />
+      <Item value="divider" priority="0" />
+      <Item value="route" priority="1" />
+      <Item value="sourceList" priority="1" />
+      <Item value="t" priority="0" />
+      <Item value="k" priority="2" />
+      <Item value="l" priority="1" />
+      <Item value="BtnCalculateShortestPathsClick`0" priority="0" />
+      <Item value="control" priority="3" />
+      <Item value="Control`0" priority="1" />
+      <Item value="TextBox`0" priority="1" />
+      <Item value="grbResult" priority="0" />
+      <Item value="ClearTextboxes`0" priority="0" />
+      <Item value="Double`0" priority="0" />
+      <Item value="neighbouringPathsCopy" priority="0" />
+      <Item value="IndexOutOfRangeException`0" priority="0" />
+      <Item value="AreNodesAccessible`0" priority="1" />
+      <Item value="areNodesIsolated" priority="0" />
+      <Item value="btnCalculateShortestPaths" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="Equals`0" priority="0" />
+      <Item value="AreEqual`0" priority="0" />
+      <Item value="That`0" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.CollectionAssert">
+      <Item value="AreEqual`0" priority="2" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="4" />
+      <Item value="Count`1" priority="9" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="Min`2" priority="0" />
+      <Item value="Max`2" priority="1" />
+      <Item value="Select`2" priority="1" />
+      <Item value="FirstOrDefault`1" priority="1" />
+      <Item value="First`1" priority="1" />
+      <Item value="Any`1" priority="0" />
+      <Item value="Aggregate`3" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="Except`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.DataObjects.Node">
+      <Item value="Next" priority="5" />
+      <Item value="ShortestPath" priority="21" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="EqualTo`0" priority="8" />
+      <Item value="GreaterThan`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="14" />
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="PositiveInfinity" priority="7" />
+      <Item value="TryParse`0" priority="0" />
+      <Item value="Parse`0" priority="4" />
+      <Item value="NegativeInfinity" priority="1" />
+      <Item value="IsInfinity`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="14" />
+      <Item value="Contains`0" priority="10" />
+      <Item value="Count" priority="31" />
+      <Item value="RemoveAt`0" priority="7" />
+      <Item value="Intersect`1" priority="2" />
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="Select`2" priority="1" />
+      <Item value="All`1" priority="3" />
+      <Item value="Last`1" priority="0" />
+      <Item value="Union`1" priority="1" />
+      <Item value="Except`1" priority="0" />
+      <Item value="ElementAt`1" priority="1" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Insert`0" priority="1" />
+      <Item value="Count" priority="4" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Add`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.BusinessLogic.FloydAlgorithm">
+      <Item value="CalculatePath`0" priority="1" />
+      <Item value="Process`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.UnitTests.FloydTest">
+      <Item value="floyd" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.UnitTests.TestSettings">
+      <Item value="InitialMatrixPath" priority="0" />
+      <Item value="ExpectedMatrixPath" priority="0" />
+      <Item value="WaitingTimeMatrix" priority="1" />
+      <Item value="PassengerFlow" priority="1" />
+      <Item value="ExpectedInitialMatrix" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="0" />
+      <Item value="Replace`0" priority="1" />
+      <Item value="Trim`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringSplitOptions">
+      <Item value="RemoveEmptyEntries" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="CurrentDirectory" priority="1" />
+      <Item value="NewLine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="1" />
+      <Item value="MinValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.BusinessLogic.MatrixLoader">
+      <Item value="Load`0" priority="3" />
+      <Item value="LoadVector`0" priority="2" />
+      <Item value="ReadAllText`0" priority="0" />
+      <Item value="GetString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.DataObjects.GeronimusParameter">
+      <Item value="UnuniformityCoeficient" priority="0" />
+      <Item value="Capacity" priority="2" />
+      <Item value="TimeInterval" priority="0" />
+      <Item value="PassangerArrivalCoeficient" priority="0" />
+      <Item value="PassengerFlow" priority="10" />
+      <Item value="MaxInterval" priority="2" />
+      <Item value="InitialMatrix" priority="3" />
+      <Item value="NodesMatrix" priority="1" />
+      <Item value="WaitingTime" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Max`0" priority="2" />
+      <Item value="Min`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.DataObjects.ShortestPathsResult">
+      <Item value="ShortestPaths" priority="14" />
+      <Item value="NeighbouringPaths" priority="17" />
+      <Item value="ExcludedPaths" priority="4" />
+      <Item value="ResultedNodesMatrix" priority="0" />
+      <Item value="TotalTime" priority="1" />
+      <Item value="ResultedInitialMatrix" priority="1" />
+      <Item value="AdditionalPaths" priority="2" />
+      <Item value="ConfirmedAdditionalPaths" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IDictionary`2">
+      <Item value="ContainsKey`0" priority="1" />
+      <Item value="Values" priority="2" />
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.UI.GeronimousMain">
+      <Item value="matrixLoader" priority="0" />
+      <Item value="geronimousParameter" priority="0" />
+      <Item value="Width" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.UI.Settings">
+      <Item value="InitialMatrixPath" priority="2" />
+      <Item value="PassengerFlow" priority="2" />
+      <Item value="WaitingTimeMatrix" priority="2" />
+      <Item value="Capacity" priority="1" />
+      <Item value="MaxInterval" priority="1" />
+      <Item value="PassangerArrivalCoeficient" priority="1" />
+      <Item value="TimeInterval" priority="2" />
+      <Item value="TransferTime" priority="1" />
+      <Item value="UnuniformityCoeficient" priority="2" />
+      <Item value="Save`0" priority="1" />
+      <Item value="PassengerArrivalCoeficient" priority="0" />
+      <Item value="LogFilePath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="12" />
+      <Item value="Width" priority="3" />
+      <Item value="Location" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="5" />
+      <Item value="Location" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="ReadAllText`0" priority="0" />
+      <Item value="WriteAllText`0" priority="0" />
+      <Item value="AppendText`0" priority="0" />
+      <Item value="AppendAllLines`0" priority="1" />
+      <Item value="Delete`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Geronimus.BusinessLogic.Geronimus">
+      <Item value="CalculateShortestPaths`0" priority="0" />
+      <Item value="logFilePath" priority="1" />
+      <Item value="LogText`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="3" />
+      <Item value="ToString`0" priority="2" />
+      <Item value="Remove`0" priority="2" />
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="2" />
+      <Item value="Y" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.GroupBox">
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxDefaultButton">
+      <Item value="Button1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Geronimus.BusinessLogic.FloydAlgorithm">
+      <Item value="Process`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Geronimus.BusinessLogic.Geronimus">
+      <Item value="CalculateOverallTimeInTrafic`0" priority="0" />
+      <Item value="CalculatePassengerFlowProportion`0" priority="0" />
+      <Item value="CalculateTotalWaitingTime`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabPage">
+      <Item value="Select`0" priority="0" />
+      <Item value="Show`0" priority="0" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="Controls" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl">
+      <Item value="SelectTab`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Queue`1">
+      <Item value="Dequeue`0" priority="1" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Select`2" priority="0" />
+      <Item value="Min`2" priority="0" />
+      <Item value="Union`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="0" />
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Foreach`0" priority="0" />
+      <Item value="Find`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

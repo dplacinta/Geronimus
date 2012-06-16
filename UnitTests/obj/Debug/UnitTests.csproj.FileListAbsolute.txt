@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\bin\Debug\UnitTests.dll
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\bin\Debug\UnitTests.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\bin\Debug\BusinessLogic.dll
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\bin\Debug\nunit.framework.dll
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\bin\Debug\BusinessLogic.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\bin\Debug\nunit.framework.xml
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\obj\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\obj\Debug\UnitTests.dll
+c:\users\administrator\documents\visual studio 2010\Projects\Geronimus\UnitTests\obj\Debug\UnitTests.pdb

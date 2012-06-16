@@ -1,0 +1,17 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Geronimus.UnitTests.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Geronimus.UnitTests.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Geronimus.BusinessLogic.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Geronimus.BusinessLogic.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\obj\Debug\Geronimus.UnitTests.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\obj\Debug\Geronimus.UnitTests.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Geronimus.DataObjects.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Geronimus.DataObjects.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Geronimus.UnitTests.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Resources\InitialMatrix.txt
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Resources\ExpectedShortestPaths.txt
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Resources\WaitingTimeMatrix.txt
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Resources\PassengerFlow.txt
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Resources\ExpectedInitialMatrix.txt
