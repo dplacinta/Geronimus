@@ -1,5 +1,0 @@
-C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\Geronimus.DataObjects\bin\Debug\Geronimus.DataObjects.dll
-C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\Geronimus.DataObjects\bin\Debug\Geronimus.DataObjects.pdb
-C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\Geronimus.DataObjects\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\Geronimus.DataObjects\obj\Debug\Geronimus.DataObjects.dll
-C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\Geronimus.DataObjects\obj\Debug\Geronimus.DataObjects.pdb
