@@ -15,3 +15,21 @@ C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Resources\WaitingTimeMatrix.txt
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Resources\PassengerFlow.txt
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Geronimus\UnitTests\bin\Debug\Resources\ExpectedInitialMatrix.txt
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Resources\PassengerFlow.txt
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Resources\ExpectedShortestPaths.txt
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Resources\InitialMatrix.txt
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Resources\WaitingTimeMatrix.txt
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Resources\ExpectedInitialMatrix.txt
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Geronimus.UnitTests.dll.config
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Geronimus.UnitTests.dll
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Geronimus.UnitTests.pdb
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Geronimus.BusinessLogic.dll
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Geronimus.DataObjects.dll
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Geronimus.BusinessLogic.pdb
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\Geronimus.DataObjects.pdb
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\obj\Debug\Geronimus.UnitTests.csprojAssemblyReference.cache
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\obj\Debug\Geronimus.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\obj\Debug\Geronimus.UnitTests.csproj.CopyComplete
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\obj\Debug\Geronimus.UnitTests.dll
+C:\Users\placinta.ADOBENET\Documents\GitHub\Geronimus\UnitTests\obj\Debug\Geronimus.UnitTests.pdb
