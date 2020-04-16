@@ -11,10 +11,12 @@
         private readonly TestSettings settings = new TestSettings();
         private Node[][] expectedNodesMatrix2;
         private double[][] inputMatrix2;
+        private readonly MatrixLoader matrixLoader;
 
         public GeronimusTest()
         {
-            passengerFlow = MatrixLoader.Load(settings.PassengerFlow);
+            this.matrixLoader = new MatrixLoader(TestContext.CurrentContext.TestDirectory);
+            this.passengerFlow = matrixLoader.Load(settings.PassengerFlow);
         }
 
         [SetUp]
@@ -83,7 +85,7 @@
         public void TestCalculateAllPaths()
         {
             string waitingTimeMatrixPath = settings.WaitingTimeMatrix;
-            double[] watingTime = MatrixLoader.LoadVector(waitingTimeMatrixPath);
+            double[] watingTime = matrixLoader.LoadVector(waitingTimeMatrixPath);
 
             var parameter = new GeronimusParameter
                                 {
@@ -117,11 +119,11 @@
         }
 
         [Test]
-        public void TestCalculateTheTimeSpentByAllPassengersInTrafic()
+        public void TestCalculateTheTimeSpentByAllPassengersInTraffic()
         {
-            double[][] initialMatrix = MatrixLoader.Load(settings.ExpectedInitialMatrix);
+            double[][] initialMatrix = matrixLoader.Load(settings.ExpectedInitialMatrix);
             Node[][] nodesMatrix = FloydAlgorithm.Process(initialMatrix);
-            double sum = Geronimus.CalculateOverallTimeInTrafic(nodesMatrix, passengerFlow);
+            double sum = Geronimus.CalculateOverallTimeInTraffic(nodesMatrix, passengerFlow);
 
             Assert.That(sum, Is.EqualTo(338786));
         }
@@ -135,15 +137,15 @@
         }
 
         [Test]
-        public void CalcuateTotalWaitingTime()
+        public void CalculateTotalWaitingTime()
         {
             const double expectedTime = 359135.34256055363d;
 
             const int unitCapacity = 60;
             const int routesNumber = 8;
-            const double coeficient = 0.41314878892733564d;
+            const double coefficient = 0.41314878892733564d;
             const double totalTime = 338786;
-            double actualTime = Geronimus.CalculateTotalWaitingTime(unitCapacity, routesNumber, coeficient, totalTime);
+            double actualTime = Geronimus.CalculateTotalWaitingTime(unitCapacity, routesNumber, coefficient, totalTime);
 
             Assert.That(actualTime, Is.EqualTo(expectedTime));
         }
@@ -160,12 +162,12 @@
                                            new List<int> {4, 7},
                                        };
 
-            double[][] initialMatrix = MatrixLoader.Load(settings.InitialMatrixPath);
-            double[] waitingTime = MatrixLoader.LoadVector(settings.WaitingTimeMatrix);
-            double[][] resultedInitialMatrix = MatrixLoader.BuildInitialMatrix(initialPathsList, initialMatrix);
+            double[][] initialMatrix = matrixLoader.Load(settings.InitialMatrixPath);
+            double[] waitingTime = matrixLoader.LoadVector(settings.WaitingTimeMatrix);
+            double[][] resultedInitialMatrix = matrixLoader.BuildInitialMatrix(initialPathsList, initialMatrix);
             Node[][] nodesMatrix = FloydAlgorithm.Process(resultedInitialMatrix);
 
-            double time = Geronimus.CalculateOverallTimeInTrafic(nodesMatrix, passengerFlow);
+            double time = Geronimus.CalculateOverallTimeInTraffic(nodesMatrix, passengerFlow);
             double w = Geronimus.CalculatePassengerFlowProportion(passengerFlow);
             double totalTime = Geronimus.CalculateTotalWaitingTime(60, 8, w, time);
 

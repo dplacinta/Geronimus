@@ -13,14 +13,17 @@
     {
         private const string NumberFormat = "{0,-7:0.#####}";
         private const string Asterix = "*      ";
+
         private readonly Settings settings;
+        private readonly MatrixLoader matrixLoader = new MatrixLoader(Environment.CurrentDirectory);
+
         private GeronimusParameter geronimousParameter;
 
         public GeronimousMain()
         {
             InitializeComponent();
             settings = new Settings();
-            new Geronimus(settings.LogFilePath);
+            new Geronimus(matrixLoader, settings.LogFilePath);
         }
 
         private void BtnLoadInitialDataClick(object sender, EventArgs e)
@@ -29,9 +32,9 @@
 
             geronimousParameter = new GeronimusParameter
                                       {
-                                          InitialMatrix = MatrixLoader.Load(settings.InitialMatrixPath),
-                                          PassengerFlow = MatrixLoader.Load(settings.PassengerFlow),
-                                          WaitingTime = MatrixLoader.LoadVector(settings.WaitingTimeMatrix),
+                                          InitialMatrix = matrixLoader.Load(settings.InitialMatrixPath),
+                                          PassengerFlow = matrixLoader.Load(settings.PassengerFlow),
+                                          WaitingTime = matrixLoader.LoadVector(settings.WaitingTimeMatrix),
                                           Capacity = settings.Capacity,
                                           MaxInterval = settings.MaxInterval,
                                           PassangerArrivalCoeficient = settings.PassengerArrivalCoeficient,
@@ -40,9 +43,9 @@
                                           UnuniformityCoeficient = settings.UnuniformityCoeficient
                                       };
 
-            txtInitialMatrix.Text = MatrixLoader.GetString(geronimousParameter.InitialMatrix);
-            txtPassengerFlow.Text = MatrixLoader.GetString(geronimousParameter.PassengerFlow);
-            txtWaitingTime.Text = MatrixLoader.GetString(geronimousParameter.WaitingTime);
+            txtInitialMatrix.Text = matrixLoader.GetString(geronimousParameter.InitialMatrix);
+            txtPassengerFlow.Text = matrixLoader.GetString(geronimousParameter.PassengerFlow);
+            txtWaitingTime.Text = matrixLoader.GetString(geronimousParameter.WaitingTime);
 
             txtCapacity.Text = geronimousParameter.Capacity.ToString();
             txtMaxInterval.Text = geronimousParameter.MaxInterval.ToString();
@@ -68,7 +71,7 @@
             ShortestPathsResult result = Geronimus.CalculateShortestPaths(geronimousParameter);
 
 
-            txtShortestPaths.Text = MatrixLoader.GetString(geronimousParameter.NodesMatrix);
+            txtShortestPaths.Text = matrixLoader.GetString(geronimousParameter.NodesMatrix);
             AppendShortestPaths(result.ShortestPaths, txtShortestPathsList);
             AppendShortestPaths(result.NeighbouringPaths, txtShortestPathsList);
             AppendShortestPaths(result.AdditionalPaths, txtNewPaths);

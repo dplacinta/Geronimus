@@ -7,17 +7,19 @@
     public class MatrixLoaderTest
     {
         private TestSettings settings;
+        private MatrixLoader matrixLoader;
 
         [SetUp]
         public void Init()
         {
             settings = new TestSettings();
+            matrixLoader = new MatrixLoader(TestContext.CurrentContext.TestDirectory);
         }
 
         [Test]
         public void TestInitialMatrixLoading()
         {
-            double[][] initialMatrix = MatrixLoader.Load(settings.InitialMatrixPath);
+            double[][] initialMatrix = matrixLoader.Load(settings.InitialMatrixPath);
             const double infinity = double.PositiveInfinity;
             var expectedInitialMatrix = new[]
                                             {
@@ -39,7 +41,7 @@
         [Test]
         public void TestExpectedMatrixLoading()
         {
-            double[][] shortestPaths = MatrixLoader.Load(settings.ShortestPathsMatrix);
+            double[][] shortestPaths = matrixLoader.Load(settings.ShortestPathsMatrix);
             var expectedShortestPathsMatrix = new[]
                                                   {
                                                       new double[] {0, 20, 28, 10, 9, 16, 13, 22},
@@ -57,7 +59,7 @@
         [Test]
         public void TestExpectedVectorLoading()
         {
-            double[] shortestPaths = MatrixLoader.LoadVector(settings.WaitingTimeMatrix);
+            double[] shortestPaths = matrixLoader.LoadVector(settings.WaitingTimeMatrix);
             var expectedShortestPathsMatrix = new[] {2, 4, 3, 3, 5, 2, 3, 2};
             CollectionAssert.AreEqual(expectedShortestPathsMatrix, shortestPaths);
         }
@@ -74,7 +76,7 @@
                                         "13	7	*	20	*	26	*	*\r\n" +
                                         "*	*	19	*	27	6	*	*";
 
-            string fileContent = MatrixLoader.ReadAllText(settings.InitialMatrixPath);
+            string fileContent = matrixLoader.ReadAllText(settings.InitialMatrixPath);
 
             Assert.That(fileContent, Is.EqualTo(expectedText));
         }
@@ -90,10 +92,10 @@
                                            new List<int> {4, 7},
                                        };
 
-            double[][] expectedInitialMatrix = MatrixLoader.Load(settings.ExpectedInitialMatrix);
-            double[][] initialMatrix = MatrixLoader.Load(settings.InitialMatrixPath);
-            double[] waitingTime = MatrixLoader.LoadVector(settings.WaitingTimeMatrix);
-            double[][] actualInitialMatrix = MatrixLoader.BuildInitialMatrix(initialPathsList, initialMatrix);
+            double[][] expectedInitialMatrix = matrixLoader.Load(settings.ExpectedInitialMatrix);
+            double[][] initialMatrix = matrixLoader.Load(settings.InitialMatrixPath);
+            double[] waitingTime = matrixLoader.LoadVector(settings.WaitingTimeMatrix);
+            double[][] actualInitialMatrix = matrixLoader.BuildInitialMatrix(initialPathsList, initialMatrix);
             Assert.That(actualInitialMatrix, Is.EqualTo(expectedInitialMatrix));
         }
     }

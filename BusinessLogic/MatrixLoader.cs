@@ -7,12 +7,18 @@
     using System.Text;
     using DataObjects;
 
-    public static class MatrixLoader
+    public class MatrixLoader
     {
         private const string NumberFormat = "{0,-7:0.#}";
         private const string Asterix = "*      ";
+        private string workingDirectory;
 
-        public static double[][] Load(string filePath)
+        public MatrixLoader(string workingDirectory)
+        {
+            this.workingDirectory = workingDirectory;
+        }
+
+        public double[][] Load(string filePath)
         {
             string[] lines = GetLines(filePath);
 
@@ -33,7 +39,7 @@
             return matrix;
         }
 
-        public static double[] LoadVector(string filePath)
+        public double[] LoadVector(string filePath)
         {
             string[] lines = GetLines(filePath);
             string[] lineData = SplitLine(lines[0]);
@@ -48,24 +54,24 @@
             return matrix;
         }
 
-        private static string[] GetLines(string filePath)
+        private string[] GetLines(string filePath)
         {
-            string fullPath = Path.Combine(Environment.CurrentDirectory + '\\' + filePath);
+            string fullPath = Path.Combine(this.workingDirectory + '\\' + filePath);
             return File.ReadAllLines(fullPath);
         }
 
-        private static string[] SplitLine(string line)
+        private string[] SplitLine(string line)
         {
             return line.Split(new[] {"\t"}, StringSplitOptions.RemoveEmptyEntries);
         }
 
-        public static string ReadAllText(string path)
+        public string ReadAllText(string path)
         {
-            string fullPath = Path.Combine(Environment.CurrentDirectory + '\\' + path);
+            string fullPath = Path.Combine(this.workingDirectory + '\\' + path);
             return File.ReadAllText(fullPath);
         }
 
-        public static string GetString(Node[][] shortestPaths)
+        public string GetString(Node[][] shortestPaths)
         {
             var sb = new StringBuilder();
 
@@ -81,7 +87,7 @@
             return sb.ToString();
         }
 
-        public static string GetString(double[][] matrix)
+        public string GetString(double[][] matrix)
         {
             var sb = new StringBuilder();
 
@@ -99,7 +105,7 @@
             return sb.ToString();
         }
 
-        public static string GetString(double[] vector)
+        public string GetString(double[] vector)
         {
             var sb = new StringBuilder();
 
@@ -117,7 +123,7 @@
             File.WriteAllText(path, matrixToWrite);
         }
 
-        public static double[][] BuildInitialMatrix(IEnumerable<IList<int>> pathsList, double[][] initialMatrix)
+        public double[][] BuildInitialMatrix(IEnumerable<IList<int>> pathsList, double[][] initialMatrix)
         {
             int size = initialMatrix.Length; //pathsList.Select(path => path.Select(i => i).Max()).Max() + 1;
             var matrix = new double[size][];

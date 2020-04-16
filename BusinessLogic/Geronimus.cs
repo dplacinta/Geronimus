@@ -12,8 +12,9 @@
     {
         private static string logFilePath;
         private static bool isLoggingEnabled;
+        private static readonly MatrixLoader matrixLoader = new MatrixLoader(Environment.CurrentDirectory);
 
-        public Geronimus(string filePath)
+        public Geronimus(MatrixLoader matrixLoader, string filePath)
         {
             logFilePath = filePath;
             isLoggingEnabled = logFilePath != null;
@@ -137,11 +138,11 @@
 
         private static double Step5FirstTime(IEnumerable<IList<int>> shortestPaths, GeronimusParameter parameter, bool saveData, ShortestPathsResult shortestPathsResult)
         {
-            double[][] resultedInitialMatrix = MatrixLoader.BuildInitialMatrix(shortestPaths, parameter.InitialMatrix);
+            double[][] resultedInitialMatrix = matrixLoader.BuildInitialMatrix(shortestPaths, parameter.InitialMatrix);
             Node[][] resultedNodesMatrix = FloydAlgorithm.Process(resultedInitialMatrix, parameter.WaitingTime, shortestPaths);
 
 
-            double time = CalculateOverallTimeInTrafic(resultedNodesMatrix, parameter.PassengerFlow);
+            double time = CalculateOverallTimeInTraffic(resultedNodesMatrix, parameter.PassengerFlow);
             double w = CalculatePassengerFlowProportion(parameter.PassengerFlow);
             double totalWaitingTime = CalculateTotalWaitingTime(parameter.Capacity, shortestPaths.Count(), w, time);
 
@@ -295,7 +296,7 @@
                 return true;
             }
             //shortestPaths = shortestPaths.Except(new List<IList<int>> {path});
-            double[][] resultedInitialMatrix = MatrixLoader.BuildInitialMatrix(shortestPaths, parameter.InitialMatrix);
+            double[][] resultedInitialMatrix = matrixLoader.BuildInitialMatrix(shortestPaths, parameter.InitialMatrix);
             Node[][] resultedNodesMatrix = FloydAlgorithm.Process(resultedInitialMatrix, parameter.WaitingTime, shortestPaths);
 
             for (int i = 0; i < resultedNodesMatrix.Length; i++)
@@ -314,7 +315,7 @@
         }
         private static bool AreNodesAccessible(IEnumerable<IList<int>> shortestPaths, GeronimusParameter parameter)
         {
-            double[][] resultedInitialMatrix = MatrixLoader.BuildInitialMatrix(shortestPaths, parameter.InitialMatrix);
+            double[][] resultedInitialMatrix = matrixLoader.BuildInitialMatrix(shortestPaths, parameter.InitialMatrix);
             Node[][] resultedNodesMatrix = FloydAlgorithm.Process(resultedInitialMatrix, parameter.WaitingTime, shortestPaths);
 
             for (int i = 0; i < resultedNodesMatrix.Length; i++)
@@ -599,7 +600,7 @@
             return pathsList;
         }
 
-        public static double CalculateOverallTimeInTrafic(Node[][] initialMatrix, double[][] passengerFlow)
+        public static double CalculateOverallTimeInTraffic(Node[][] initialMatrix, double[][] passengerFlow)
         {
             double sum = 0;
 
@@ -621,17 +622,17 @@
             return sum;
         }
 
-        public static double CalculatePassengerFlowProportion(double[][] passwengerFlow)
+        public static double CalculatePassengerFlowProportion(double[][] passengerFlow)
         {
             double minSum = 0;
             double maxSum = 0;
 
-            for (int i = 0; i < passwengerFlow.Length; i++)
+            for (int i = 0; i < passengerFlow.Length; i++)
             {
-                for (int j = i + 1; j < passwengerFlow.Length; j++)
+                for (int j = i + 1; j < passengerFlow.Length; j++)
                 {
-                    minSum += Math.Min(passwengerFlow[i][j], passwengerFlow[j][i]);
-                    maxSum += Math.Max(passwengerFlow[i][j], passwengerFlow[j][i]);
+                    minSum += Math.Min(passengerFlow[i][j], passengerFlow[j][i]);
+                    maxSum += Math.Max(passengerFlow[i][j], passengerFlow[j][i]);
                 }
             }
 
