@@ -4,3 +4,6 @@ Geronimus.5.1.ReSharper.user
 bin
 obj
 *.suo
+*/bin
+*/obj
+.vs/
