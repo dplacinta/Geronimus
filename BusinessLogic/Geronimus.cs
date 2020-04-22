@@ -639,9 +639,9 @@
             return minSum/maxSum;
         }
 
-        public static double CalculateTotalWaitingTime(int unitCapacity, int routesNumber, double coeficient, double totalTime)
+        public static double CalculateTotalWaitingTime(int unitCapacity, int routesNumber, double coefficient, double totalTime)
         {
-            return 30*unitCapacity*routesNumber*(1 + coeficient) + totalTime;
+            return 30*unitCapacity*routesNumber*(1 + coefficient) + totalTime;
         }
     }
 }

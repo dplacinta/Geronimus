@@ -85,11 +85,11 @@
         public void TestCalculateAllPaths()
         {
             string waitingTimeMatrixPath = settings.WaitingTimeMatrix;
-            double[] watingTime = matrixLoader.LoadVector(waitingTimeMatrixPath);
+            double[] waitingTime = matrixLoader.LoadVector(waitingTimeMatrixPath);
 
             var parameter = new GeronimusParameter
                                 {
-                                    WaitingTime = watingTime,
+                                    WaitingTime = waitingTime,
                                     PassengerFlow = passengerFlow,
                                     Capacity = 60,
                                     TransferTime = 2.5,
@@ -125,7 +125,7 @@
             Node[][] nodesMatrix = FloydAlgorithm.Process(initialMatrix);
             double sum = Geronimus.CalculateOverallTimeInTraffic(nodesMatrix, passengerFlow);
 
-            Assert.That(sum, Is.EqualTo(338786));
+            Assert.That(sum, Is.EqualTo(278041));
         }
 
         [Test]
@@ -153,7 +153,7 @@
         [Test]
         public void TestStep5()
         {
-            const double expectedTime = 359135.34256055363d;
+            const double expectedTime = 298390.34256055363d;
             var initialPathsList = new List<IList<int>>
                                        {
                                            new List<int> {2, 4, 0, 6, 1},
